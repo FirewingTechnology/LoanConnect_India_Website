@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#f6c75e"/><stop offset="1" stop-color="#ef7d23"/></linearGradient></defs>
+<rect width="1200" height="700" rx="48" fill="#fff7e8"/>
+<circle cx="900" cy="350" r="250" fill="#ffe8b5"/>
+<rect x="250" y="190" width="560" height="260" rx="30" transform="rotate(-8 250 190)" fill="url(#g)" opacity=".92"/>
+<rect x="420" y="280" width="560" height="260" rx="30" transform="rotate(8 420 280)" fill="#83d0a5" opacity=".9"/>
+<circle cx="550" cy="335" r="75" fill="#fff4cc" opacity=".75"/><text x="522" y="360" font-size="82" font-family="Arial" font-weight="700" fill="#9a6516">₹</text>
+<circle cx="1010" cy="180" r="55" fill="#f3bd38"/><text x="991" y="202" font-size="48" font-family="Arial" font-weight="700" fill="#80540b">₹</text>
+<circle cx="180" cy="520" r="42" fill="#f3bd38"/><text x="165" y="536" font-size="34" font-family="Arial" font-weight="700" fill="#80540b">₹</text>
+</svg>

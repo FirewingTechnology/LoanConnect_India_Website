@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: loanconnect-india
+    env: node
+    plan: free
+    region: singapore
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: ADMIN_EMAIL
+        value: admin@example.com
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: BUSINESS_NAME
+        value: LoanConnect India
+      - key: SERVICE_FEE_INR
+        value: "299"
+      - key: GST_PERCENT
+        value: "18"
