@@ -145,6 +145,7 @@ This project is 100% **Render Deployment Ready** as a unified full-stack Node.js
    - **Build Command**: `npm install && npm run build`
    - **Start Command**: `npm start`
 5. Under **Environment Variables**, add:
+   - `NODE_VERSION`: `20.18.0` (LTS required for precompiled SQLite native modules)
    - `NODE_ENV`: `production`
    - `ADMIN_EMAIL`: `admin@example.com`
    - `ADMIN_PASSWORD`: `<your-secure-password>`
