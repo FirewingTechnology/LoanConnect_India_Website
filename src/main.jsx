@@ -583,23 +583,6 @@ function GrievanceRedressalSection({ onOpenLegal }) {
       <div className="gov-grievance-grid">
         <div className="gov-grievance-card">
           <div className="gov-grievance-header">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ea580c" strokeWidth="2.2" aria-hidden="true">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
-            <h3>Designated Nodal Grievance Officer (नोडल अधिकारी)</h3>
-          </div>
-          <div className="gov-officer-details">
-            <p><strong>Name:</strong> Shri R. K. Verma</p>
-            <p><strong>Designation:</strong> Head of Consumer Protection &amp; Grievance Redressal</p>
-            <p><strong>Official Email:</strong> <a href="mailto:grievance@loanconnectindia.in" style={{ color: "#2563eb", textDecoration: "underline" }}>grievance@loanconnectindia.in</a></p>
-            <p><strong>Advisory Helpline:</strong> <a href="tel:18002085626" style={{ color: "inherit" }}>1800-208-5626</a> (Toll-Free, Mon to Sat 9:30 AM – 6:30 PM)</p>
-            <p><strong>Corporate Advisory Office:</strong> National Financial Towers, Level 5, Connaught Place, New Delhi 110001</p>
-          </div>
-        </div>
-
-        <div className="gov-grievance-card">
-          <div className="gov-grievance-header">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#047857" strokeWidth="2.2" aria-hidden="true">
               <circle cx="12" cy="12" r="10"/>
               <polyline points="12 6 12 12 16 14"/>
